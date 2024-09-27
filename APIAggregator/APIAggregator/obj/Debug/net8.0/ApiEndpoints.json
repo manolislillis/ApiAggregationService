@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "APIAggregator.Controllers.AggregationController",
+    "Method": "GetAggregatedData",
+    "RelativePath": "api/Aggregation/aggregate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "topic",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "songName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "articleCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIAggregator.Controllers.NewsController",
+    "Method": "GetNewsData",
+    "RelativePath": "api/News/Articles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "topic",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Articles_Amount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIAggregator.Controllers.OpenWeatherMapApiController",
+    "Method": "GetWeatherInfo",
+    "RelativePath": "api/OpenWeatherMapApi/weather",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIAggregator.Controllers.SpotifyController",
+    "Method": "SearchSpotify",
+    "RelativePath": "api/Spotify/Search Song",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
